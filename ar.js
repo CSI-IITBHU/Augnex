@@ -420,13 +420,13 @@ window.onload = () => {
     });
   }
 
-  data.forEach(area => {
-    createPolygon(area);
-  });
+  // data.forEach(area => {
+  //   createPolygon(area);
+  // });
 
-  renderplace();
+  // renderplace();
 
-  setInterval(() => {
-    renderplace();
-  }, 5000);
+  // setInterval(() => {
+  //   renderplace();
+  // }, 5000);
 };

@@ -171,7 +171,7 @@ var data = [
           scale: "3 3 3",
           render: false,
           rotation: "0 0 0",
-          animation: true
+          animation: false
         }
       ],
       points: [

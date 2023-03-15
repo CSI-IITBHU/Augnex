@@ -167,7 +167,7 @@ var data = [
         {
           name: "WelcomeHostel",
           center: { lat: 25.262288647629248, long:  82.98402143668886 },
-          model: "./models/drone.gltf",
+          model: "./models/sntc.gltf",
           scale: "5 5 5",
           render: false,
           rotation: "0 0 0",

@@ -170,7 +170,7 @@ var data = [
           model: "./models/sntc.gltf",
           scale: "5 5 5",
           render: false,
-          rotation: "0 0 180",
+          rotation: "0 0 0",
           animation: true
         }
       ],
@@ -193,11 +193,11 @@ var data = [
         {
           name: "WelcomeHostelout",
           center: { lat: 25.262896018343923,  long:  82.98392252212467 },
-          model: "./models/sntc.gltf",
+          model: "./models/welcome.gltf",
           scale: "5 5 5",
           render: false,
-          rotation: "180 0 0",
-          animation: false
+          rotation: "0 0 0",
+          animation: true
         }
       ],
       points: [

@@ -159,6 +159,32 @@ var data = [
         new L.LatLng(25.261898022067427, 82.98723758171487)
       ]
     },
+    {
+      placeArea: "hostel",
+      color: "#d09f5f",
+      name: "hostel",
+      objects: [
+        {
+          name: "WelcomeHostel",
+          center: { lat: 25.262288647629248, long:  82.98402143668886 },
+          model: "./models/sntc.gltf",
+          scale: "5 5 5",
+          render: false,
+          rotation: "0 0 0",
+          animation: true
+        }
+      ],
+      points: [
+        new L.LatLng(25.262723994466715, 82.9834539405192),
+        new L.LatLng(25.262769650851013, 82.98395878788068),
+        new L.LatLng(25.262778782125825, 82.98437612836616),
+        new L.LatLng(25.26231613000505, 82.98443671004954),
+        new L.LatLng(25.261877826369734, 82.9844434413477),
+        new L.LatLng(25.26186260746507, 82.98406312300204),
+        new L.LatLng(25.261838257213665, 82.9835515443424),
+        new L.LatLng(25.262264385908253, 82.98348759700995)
+      ]
+    },
 ];
 
 var options = {

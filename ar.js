@@ -170,7 +170,7 @@ var data = [
           model: "./models/sntc.gltf",
           scale: "5 5 5",
           render: false,
-          rotation: "0 180 0",
+          rotation: "0 0 180",
           animation: true
         }
       ],
@@ -196,7 +196,7 @@ var data = [
           model: "./models/sntc.gltf",
           scale: "5 5 5",
           render: false,
-          rotation: "0 180 0",
+          rotation: "180 0 0",
           animation: false
         }
       ],

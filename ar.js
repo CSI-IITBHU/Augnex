@@ -167,7 +167,7 @@ var data = [
         {
           name: "WelcomeHostel",
           center: { lat: 25.262288647629248, long:  82.98402143668886 },
-          model: "./models/welcome.gltf",
+          model: "./models/drone.gltf",
           scale: "5 5 5",
           render: false,
           rotation: "0 0 0",
@@ -193,7 +193,7 @@ var data = [
         {
           name: "WelcomeHostelout",
           center: { lat: 25.262896018343923,  long:  82.98392252212467 },
-          model: "./models/welcome.gltf",
+          model: "./models/augnex.gltf",
           scale: "5 5 5",
           render: false,
           rotation: "0 0 0",

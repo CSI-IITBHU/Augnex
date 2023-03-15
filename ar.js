@@ -167,7 +167,7 @@ var data = [
         {
           name: "WelcomeHostel",
           center: { lat: 25.262288647629248, long:  82.98402143668886 },
-          model: "./models/sntc.gltf",
+          model: "./models/augnex.gltf",
           scale: "5 5 5",
           render: false,
           rotation: "0 0 0",
@@ -192,8 +192,8 @@ var data = [
       objects: [
         {
           name: "WelcomeHostelout",
-          center: { lat: 25.262896018343923,  long:  82.98392252212467 },
-          model: "./models/augnex.gltf",
+          center: { lat: 25.262040342057364,  long:   82.9842136042311 },
+          model: "./models/welcome.gltf",
           scale: "5 5 5",
           render: false,
           rotation: "0 0 0",
@@ -201,14 +201,14 @@ var data = [
         }
       ],
       points: [
-        new L.LatLng(25.26298372980717, 82.98363718218208),
-        new L.LatLng(25.26286805235681, 82.98365686079882),
-        new L.LatLng(25.262746018883103, 82.98370746295612),
-        new L.LatLng(25.26277144253357, 82.98393376704851),
-        new L.LatLng(25.262762544256503, 82.98414742060159),
-        new L.LatLng(25.262871865900884, 82.98414039252417),
-        new L.LatLng(25.26300025514823, 82.98412914760033),
-        new L.LatLng(25.262995170428134, 82.98389722104602)
+        new L.LatLng(25.262723994466715, 82.9834539405192),
+        new L.LatLng(25.262769650851013, 82.98395878788068),
+        new L.LatLng(25.262778782125825, 82.98437612836616),
+        new L.LatLng(25.26231613000505, 82.98443671004954),
+        new L.LatLng(25.261877826369734, 82.9844434413477),
+        new L.LatLng(25.26186260746507, 82.98406312300204),
+        new L.LatLng(25.261838257213665, 82.9835515443424),
+        new L.LatLng(25.262264385908253, 82.98348759700995)
       ]
     },
 ];

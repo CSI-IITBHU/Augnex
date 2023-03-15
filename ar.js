@@ -170,7 +170,7 @@ var data = [
           model: "./models/sntc.gltf",
           scale: "5 5 5",
           render: false,
-          rotation: "0 0 0",
+          rotation: "0 180 0",
           animation: true
         }
       ],
@@ -183,6 +183,32 @@ var data = [
         new L.LatLng(25.26186260746507, 82.98406312300204),
         new L.LatLng(25.261838257213665, 82.9835515443424),
         new L.LatLng(25.262264385908253, 82.98348759700995)
+      ]
+    },
+    {
+      placeArea: "hostelout",
+      color: "#d09f5f",
+      name: "hostelout",
+      objects: [
+        {
+          name: "WelcomeHostelout",
+          center: { lat: 25.262896018343923,  long:  82.98392252212467 },
+          model: "./models/sntc.gltf",
+          scale: "5 5 5",
+          render: false,
+          rotation: "0 180 0",
+          animation: false
+        }
+      ],
+      points: [
+        new L.LatLng(25.26298372980717, 82.98363718218208),
+        new L.LatLng(25.26286805235681, 82.98365686079882),
+        new L.LatLng(25.262746018883103, 82.98370746295612),
+        new L.LatLng(25.26277144253357, 82.98393376704851),
+        new L.LatLng(25.262762544256503, 82.98414742060159),
+        new L.LatLng(25.262871865900884, 82.98414039252417),
+        new L.LatLng(25.26300025514823, 82.98412914760033),
+        new L.LatLng(25.262995170428134, 82.98389722104602)
       ]
     },
 ];

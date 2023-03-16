@@ -120,11 +120,11 @@ var data = [
           name: "ncc",
           center: { lat: 25.261432365840623, long: 82.99002617994616 },
           model: "./models/augnex.gltf",
-          scale: "4 4 4",
+          scale: "5 5 5",
           render: false,
           rotation: "0 0 0",
           animation: true ,
-          height : true 
+          height : false
         }
       ],
       points: [

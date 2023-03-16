@@ -34,7 +34,8 @@ const cacheAssets = [
   "./SVG/augnex.svg",
   "./SVG/Technex.svg",
   "./ar.js",
-  "./canvas.js"
+  "./canvas.js",
+  "./models/drone1.gltf"
 ];
 
 // Call Install Event

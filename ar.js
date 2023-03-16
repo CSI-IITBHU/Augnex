@@ -166,8 +166,8 @@ var data = [
       objects: [
         {
           name: "WelcomeHostel",
-          center: { lat: 25.262288647629248, long:  82.98402143668886 },
-          model: "./models/drone1.gltf",
+          center: { lat: 25.262290041181625,  long:  82.98402019672666 },
+          model: "./models/augnex.gltf",
           scale: "3 3 3",
           render: false,
           rotation: "0 0 0",

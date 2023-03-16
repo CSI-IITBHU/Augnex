@@ -10,23 +10,24 @@ var data = [
     objects: [
       {
         name: "Welcomelc",
-        center: { lat: 25.2606867544037,  long: 82.98686136907517 },
+        center: { lat: 25.260675656207564,  long:82.9868691026328 },
         model: "./models/Welcome.gltf",
         scale: "10 10 10",
         render: false,
         rotation: "0 0 0",
-        animation: true
+        animation: true ,
+        height : false 
       }
     ],
     points: [
-      new L.LatLng(25.26061426290426, 82.98664975620035),
-      new L.LatLng(25.260802740712787, 82.98654715601863),
-      new L.LatLng(25.260910027950047, 82.98682930651839),
-      new L.LatLng(25.260941924137423, 82.98706015692726),
-      new L.LatLng(25.2607447475721, 82.98716596336467),
-      new L.LatLng(25.260573667645687, 82.98721726345555),
-      new L.LatLng(25.26045478145317, 82.98693511295579),
-      new L.LatLng(25.260431584133755, 82.98668181875715)
+      new L.LatLng(25.261066216109096, 82.98619438243271),
+      new L.LatLng(25.260514378151235, 82.98619771678942),
+      new L.LatLng(25.259886437528948, 82.98659551133285),
+      new L.LatLng(25.259961172833457, 82.98712513906656),
+      new L.LatLng(25.260144613840453, 82.98766979170054),
+      new L.LatLng(25.260874978064585, 82.98775618487697),
+      new L.LatLng(25.26119429871726, 82.98720401979288),
+      new L.LatLng(25.261252048107334, 82.98674576033531)
     ]
   },
   {
@@ -38,21 +39,22 @@ var data = [
           name: "dg",
           center: { lat: 25.263173204198132,  long: 82.98645562474377 },
           model: "./models/cube_dg.gltf",
-          scale: "1.5 1.5 1.5",
+          scale: "1 1 1",
           render: false,
           rotation: "0 0 0",
-          animation: true
+          animation: true ,
+          height : true 
         }
       ],
       points: [
-        new L.LatLng(25.26344990496827, 82.98606855465376),
-        new L.LatLng(25.263157859082927, 82.98606855465376),
-        new L.LatLng(25.262766893330284, 82.98617272640523),
-        new L.LatLng(25.262828129013265, 82.98650086742234),
-        new L.LatLng(25.26287052292953, 82.9867352538631),
-        new L.LatLng(25.26318612161867, 82.9867352538631),
-        new L.LatLng(25.26343577373194, 82.98690192866546),
-        new L.LatLng(25.263501719487454, 82.98636544414543)
+        new L.LatLng(25.263919670315392, 82.98577210602198),
+        new L.LatLng(25.263150649683528, 82.9856805295158),
+        new L.LatLng(25.262352046179462, 82.985778647201),
+        new L.LatLng(25.262352046179462, 82.98657012986159),
+        new L.LatLng(25.26251176730051, 82.98741394195427),
+        new L.LatLng(25.263203889730377, 82.98745973020736),
+        new L.LatLng(25.263943332411426, 82.9873354478061),
+        new L.LatLng(25.263978825546847, 82.98643930628131)
       ]
     },
     {
@@ -64,21 +66,22 @@ var data = [
           name: "iitgate",
           center: { lat: 25.26332959106015, long: 82.9896579683655 },
           model: "./models/cube_iitgate.gltf",
-          scale: "1.5 1.5 1.5",
+          scale: "1 1 1",
           render: false,
           rotation: "0 0 0",
-          animation: true
+          animation: true ,
+          height : true 
         }
       ],
       points: [
-        new L.LatLng(25.263023057332525, 82.98949549543961),
-        new L.LatLng(25.26305599074533, 82.98967757716694),
-        new L.LatLng(25.26301799065284, 82.98983724883554),
-        new L.LatLng(25.263352391058564, 82.98989607523976),
-        new L.LatLng(25.26356012418014, 82.98988206895305),
-        new L.LatLng(25.263570257494067, 82.98965796836555),
-        new L.LatLng(25.26356012418014, 82.98939465017524),
-        new L.LatLng(25.26331945772617, 82.9893918489179)
+        new L.LatLng(25.26393790504465, 82.98880605899099),
+        new L.LatLng(25.26328635789667, 82.9887075793811),
+        new L.LatLng(25.262419185405605, 82.98878532644153),
+        new L.LatLng(25.262517621513524, 82.98980640450198),
+        new L.LatLng(25.262653556959897, 82.99048539549649),
+        new L.LatLng(25.263366043706757, 82.99048539549649),
+        new L.LatLng(25.26401290305308, 82.99052167745803),
+        new L.LatLng(25.263947279798217, 82.98965609351846)
       ]
     },
     {
@@ -93,18 +96,19 @@ var data = [
           scale: "10 10 10",
           render: false,
           rotation: "0 0 0",
-          animation: true
+          animation: true ,
+          height : false 
         }
       ],
       points: [
-        new L.LatLng(25.260664779055713, 82.99372953283307),
-        new L.LatLng(25.260824240634363, 82.99388426472956),
-        new L.LatLng(25.260801460421668, 82.99403179979363),
-        new L.LatLng(25.260586675348915, 82.99422971268447),
-        new L.LatLng(25.260381652879623, 82.99422971268447),
-        new L.LatLng(25.260235208046744, 82.99405698870702),
-        new L.LatLng(25.260355618255566, 82.9938338869028),
-        new L.LatLng(25.26052484321211, 82.99369354867109)
+        new L.LatLng(25.261049868271662, 82.9934202994373),
+        new L.LatLng(25.26050507895721, 82.9938061461079),
+        new L.LatLng(25.259953165721427, 82.99423923930958),
+        new L.LatLng(25.260391135785007, 82.99512511176758),
+        new L.LatLng(25.260854029257032, 82.99502668149445),
+        new L.LatLng(25.26153412338808, 82.99456209060537),
+        new L.LatLng(25.261395256309555, 82.99417624393479),
+        new L.LatLng(25.26119585714982, 82.993695904202)
       ]
     },
     {
@@ -116,21 +120,22 @@ var data = [
           name: "ncc",
           center: { lat: 25.261432365840623, long: 82.99002617994616 },
           model: "./models/augnex.gltf",
-          scale: "10 10 10",
+          scale: "4 4 4",
           render: false,
           rotation: "0 0 0",
-          animation: true
+          animation: true ,
+          height : true 
         }
       ],
       points: [
-        new L.LatLng(25.26154423446655, 82.98982399359967),
-        new L.LatLng(25.26139130452512, 82.9898404339878),
-        new L.LatLng(25.261234126328983, 82.98988505789846),
-        new L.LatLng(25.261270234851512, 82.9900893884367),
-        new L.LatLng(25.26133183171808, 82.99019977389989),
-        new L.LatLng(25.261459273411752, 82.990145755481732),
-        new L.LatLng(25.261588838996563, 82.99010348019796),
-        new L.LatLng(25.261565474720978, 82.98999074610789)
+        new L.LatLng(25.261616019300124, 82.98889250701649),
+        new L.LatLng(25.261195857166914, 82.98897912565681),
+        new L.LatLng(25.260419621605177, 82.98934134906186),
+        new L.LatLng(25.260505078974308, 82.99040439601146),
+        new L.LatLng(25.260900318524286, 82.99109734513414),
+        new L.LatLng(25.26166942963662, 82.99098710322825),
+        new L.LatLng(25.26201481591215, 82.99057763329212),
+        new L.LatLng(25.26194004164717, 82.98988074695849)
       ]
     },
     {
@@ -142,10 +147,11 @@ var data = [
           name: "rajputana",
           center: { lat: 25.261590266955793,  long: 82.98725137760731 },
           model: "./models/sntc.gltf",
-          scale: "10 10 10",
+          scale: "4 4 4",
           render: false,
           rotation: "0 0 0",
-          animation: true
+          animation: true,
+          height : false 
         }
       ],
       points: [
@@ -255,7 +261,9 @@ window.onload = () => {
                 icon.setAttribute("scale", object.scale);
                 icon.setAttribute("rotation", object.rotation);
                 icon.setAttribute("id", object.name);
-                // icon.setAttribute("position" , "0 50 0");
+                if(object.height){
+                  icon.setAttribute("position" , "0 100 0");
+                }
                 if (object.animation) {
                   icon.setAttribute("animation-mixer", "");
                   icon.setAttribute(

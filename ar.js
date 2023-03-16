@@ -167,7 +167,7 @@ var data = [
         {
           name: "WelcomeHostel",
           center: { lat: 25.262290041181625,  long:  82.98402019672666 },
-          model: "./models/cube_dg.gltf",
+          model: "./models/cube_iitgate.gltf",
           scale: "1.5 1.5 1.5",
           render: false,
           rotation: "0 0 0",
@@ -281,11 +281,12 @@ window.onload = () => {
                 icon.setAttribute("scale", object.scale);
                 icon.setAttribute("rotation", object.rotation);
                 icon.setAttribute("id", object.name);
+                icon.setAttribute("position" , "0 50 0");
                 if (object.animation) {
                   icon.setAttribute("animation-mixer", "");
                   icon.setAttribute(
                     "animation",
-                    "property: rotation; to: 0 360 0;loop:true; dur: 8000"
+                    "property: rotation; to: 0 360 0;loop:true; dur: 13000"
                   );
                 }
 

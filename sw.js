@@ -39,6 +39,7 @@ const cacheAssets = [
   "./models/sntc.gltf",
   "./models/augnex.gltf",
   "./models/cube_dg.gltf",
+  "./models/cube_iitgate.gltf",
 ];
 
 // Call Install Event
